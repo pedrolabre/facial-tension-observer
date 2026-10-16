@@ -16,8 +16,10 @@ facial-tension-observer/
 ├── tsconfig.json
 ├── src/
 │   └── core/
+│       ├── geometry.ts
 │       └── types.ts
 └── tests/
     └── unit/
+        ├── geometry.test.ts
         └── types.test.ts
 ```
