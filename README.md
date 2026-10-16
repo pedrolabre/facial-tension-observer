@@ -17,9 +17,13 @@ facial-tension-observer/
 ├── src/
 │   └── core/
 │       ├── geometry.ts
+│       ├── heuristics.ts
 │       └── types.ts
 └── tests/
+    ├── fixtures/
+    │   └── mock_meshes.ts
     └── unit/
         ├── geometry.test.ts
+        ├── heuristics.test.ts
         └── types.test.ts
 ```
