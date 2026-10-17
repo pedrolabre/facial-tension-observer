@@ -18,6 +18,7 @@ facial-tension-observer/
 │   └── core/
 │       ├── geometry.ts
 │       ├── heuristics.ts
+│       ├── tracker.ts
 │       └── types.ts
 └── tests/
     ├── fixtures/
@@ -25,5 +26,6 @@ facial-tension-observer/
     └── unit/
         ├── geometry.test.ts
         ├── heuristics.test.ts
+        ├── tracker.test.ts
         └── types.test.ts
 ```
