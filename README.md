@@ -21,6 +21,9 @@ facial-tension-observer/
 │   │   ├── tracker.ts
 │   │   └── types.ts
 │   └── services/
+│       ├── camera/
+│       │   ├── frame_throttler.ts
+│       │   └── vision_service.ts
 │       ├── db/
 │       │   ├── client.ts
 │       │   ├── quote_repository.ts
@@ -33,6 +36,7 @@ facial-tension-observer/
     │   └── mock_meshes.ts
     └── unit/
         ├── db_client.test.ts
+        ├── frame_throttler.test.ts
         ├── geometry.test.ts
         ├── heuristics.test.ts
         ├── repositories.test.ts
