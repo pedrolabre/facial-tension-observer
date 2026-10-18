@@ -23,7 +23,9 @@ facial-tension-observer/
 │   └── services/
 │       └── db/
 │           ├── client.ts
-│           └── schema.ts
+│           ├── quote_repository.ts
+│           ├── schema.ts
+│           └── session_repository.ts
 └── tests/
     ├── fixtures/
     │   └── mock_meshes.ts
@@ -31,6 +33,7 @@ facial-tension-observer/
         ├── db_client.test.ts
         ├── geometry.test.ts
         ├── heuristics.test.ts
+        ├── repositories.test.ts
         ├── tracker.test.ts
         └── types.test.ts
 ```
