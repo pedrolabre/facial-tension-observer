@@ -20,19 +20,24 @@ facial-tension-observer/
 │   │   ├── heuristics.ts
 │   │   ├── tracker.ts
 │   │   └── types.ts
-│   └── services/
-│       ├── camera/
-│       │   ├── frame_throttler.ts
-│       │   └── vision_service.ts
-│       ├── db/
-│       │   ├── client.ts
-│       │   ├── quote_repository.ts
-│       │   ├── schema.ts
-│       │   └── session_repository.ts
-│       ├── session/
-│       │   └── session_manager.ts
-│       └── storage/
-│           └── vault_storage.ts
+│   ├── services/
+│   │   ├── camera/
+│   │   │   ├── frame_throttler.ts
+│   │   │   └── vision_service.ts
+│   │   ├── db/
+│   │   │   ├── client.ts
+│   │   │   ├── quote_repository.ts
+│   │   │   ├── schema.ts
+│   │   │   └── session_repository.ts
+│   │   ├── session/
+│   │   │   └── session_manager.ts
+│   │   └── storage/
+│   │       └── vault_storage.ts
+│   └── ui/
+│       ├── components/
+│       │   └── MetricCard.tsx
+│       └── screens/
+│           └── HomeScreen.tsx
 └── tests/
     ├── fixtures/
     │   └── mock_meshes.ts
@@ -41,6 +46,7 @@ facial-tension-observer/
         ├── frame_throttler.test.ts
         ├── geometry.test.ts
         ├── heuristics.test.ts
+        ├── home_screen.test.tsx
         ├── repositories.test.ts
         ├── session_manager.test.ts
         ├── tracker.test.ts
