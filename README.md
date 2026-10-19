@@ -29,6 +29,8 @@ facial-tension-observer/
 │       │   ├── quote_repository.ts
 │       │   ├── schema.ts
 │       │   └── session_repository.ts
+│       ├── session/
+│       │   └── session_manager.ts
 │       └── storage/
 │           └── vault_storage.ts
 └── tests/
@@ -40,6 +42,7 @@ facial-tension-observer/
         ├── geometry.test.ts
         ├── heuristics.test.ts
         ├── repositories.test.ts
+        ├── session_manager.test.ts
         ├── tracker.test.ts
         ├── types.test.ts
         └── vault_storage.test.ts
