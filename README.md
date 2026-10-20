@@ -39,10 +39,12 @@ facial-tension-observer/
 │       ├── components/
 │       │   ├── BlindDecisionModal.tsx
 │       │   ├── MetricCard.tsx
-│       │   └── PulseIndicator.tsx
+│       │   ├── PulseIndicator.tsx
+│       │   └── VaultCard.tsx
 │       └── screens/
 │           ├── HomeScreen.tsx
-│           └── MonitoringScreen.tsx
+│           ├── MonitoringScreen.tsx
+│           └── VaultScreen.tsx
 └── tests/
     ├── fixtures/
     │   └── mock_meshes.ts
@@ -58,5 +60,6 @@ facial-tension-observer/
         ├── session_manager.test.ts
         ├── tracker.test.ts
         ├── types.test.ts
+        ├── vault_screen.test.tsx
         └── vault_storage.test.ts
 ```
