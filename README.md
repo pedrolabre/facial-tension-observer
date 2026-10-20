@@ -25,6 +25,7 @@ facial-tension-observer/
 │   │   │   ├── frame_throttler.ts
 │   │   │   └── vision_service.ts
 │   │   ├── db/
+│   │   │   ├── captures_repository.ts
 │   │   │   ├── client.ts
 │   │   │   ├── quote_repository.ts
 │   │   │   ├── schema.ts
@@ -40,6 +41,7 @@ facial-tension-observer/
 │       │   ├── BlindDecisionModal.tsx
 │       │   ├── MetricCard.tsx
 │       │   ├── PulseIndicator.tsx
+│       │   ├── RevealViewerModal.tsx
 │       │   └── VaultCard.tsx
 │       └── screens/
 │           ├── HomeScreen.tsx
@@ -57,6 +59,7 @@ facial-tension-observer/
         ├── home_screen.test.tsx
         ├── monitoring_screen.test.tsx
         ├── repositories.test.ts
+        ├── reveal_viewer.test.tsx
         ├── session_manager.test.ts
         ├── tracker.test.ts
         ├── types.test.ts
