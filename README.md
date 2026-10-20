@@ -35,9 +35,11 @@ facial-tension-observer/
 │   │       └── vault_storage.ts
 │   └── ui/
 │       ├── components/
-│       │   └── MetricCard.tsx
+│       │   ├── MetricCard.tsx
+│       │   └── PulseIndicator.tsx
 │       └── screens/
-│           └── HomeScreen.tsx
+│           ├── HomeScreen.tsx
+│           └── MonitoringScreen.tsx
 └── tests/
     ├── fixtures/
     │   └── mock_meshes.ts
@@ -47,6 +49,7 @@ facial-tension-observer/
         ├── geometry.test.ts
         ├── heuristics.test.ts
         ├── home_screen.test.tsx
+        ├── monitoring_screen.test.tsx
         ├── repositories.test.ts
         ├── session_manager.test.ts
         ├── tracker.test.ts
