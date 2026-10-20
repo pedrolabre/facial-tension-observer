@@ -29,12 +29,15 @@ facial-tension-observer/
 │   │   │   ├── quote_repository.ts
 │   │   │   ├── schema.ts
 │   │   │   └── session_repository.ts
+│   │   ├── feedback/
+│   │   │   └── haptics_service.ts
 │   │   ├── session/
 │   │   │   └── session_manager.ts
 │   │   └── storage/
 │   │       └── vault_storage.ts
 │   └── ui/
 │       ├── components/
+│       │   ├── BlindDecisionModal.tsx
 │       │   ├── MetricCard.tsx
 │       │   └── PulseIndicator.tsx
 │       └── screens/
@@ -44,6 +47,7 @@ facial-tension-observer/
     ├── fixtures/
     │   └── mock_meshes.ts
     └── unit/
+        ├── blind_decision_modal.test.tsx
         ├── db_client.test.ts
         ├── frame_throttler.test.ts
         ├── geometry.test.ts
