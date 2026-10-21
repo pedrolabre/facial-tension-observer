@@ -34,6 +34,8 @@ facial-tension-observer/
 │   │   │   └── haptics_service.ts
 │   │   ├── session/
 │   │   │   └── session_manager.ts
+│   │   ├── stamper/
+│   │   │   └── image_stamper.ts
 │   │   └── storage/
 │   │       └── vault_storage.ts
 │   └── ui/
@@ -57,6 +59,7 @@ facial-tension-observer/
         ├── geometry.test.ts
         ├── heuristics.test.ts
         ├── home_screen.test.tsx
+        ├── image_stamper.test.ts
         ├── monitoring_screen.test.tsx
         ├── repositories.test.ts
         ├── reveal_viewer.test.tsx
